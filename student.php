@@ -24,7 +24,7 @@
       <input type="text" class="form-control" id="fname" name="fname" placeholder="Username">
     </div>
   </div>
-  
+
   <div class="col-auto">
     <button type="submit" class="btn btn-primary">Submit</button>
   </div>
