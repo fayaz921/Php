@@ -52,7 +52,7 @@
                             <td><?php echo $display['address'] ?></td>
                             <td><?php echo $display['created_at'] ?></td>
                             <td>
-                                <a href="#">Edit</a>
+                                <a href="task.php?id=<?php echo $display['id'] ?>">Edit</a>
                                 <a href="delete.php?id=<?php echo $display['id'] ?>">Delete</a>
                             </td>
                         </tr>
