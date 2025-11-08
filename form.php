@@ -14,9 +14,9 @@
     include_once "Layout/header.php";
     ?>
     <div class="container">
-        <div class="row p-5">
+        <div class="row p-5 bg-light">
             <div class="col-lg-6">
-                Form text
+                Form text 
             </div>
             <div class="col-lg-6">
                 <?php
@@ -45,7 +45,7 @@
                     <div class="col-md-6">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" name="email">
-                        
+
                         <span class="text-danger">
                             <?php
                             echo $emailErr
@@ -55,8 +55,8 @@
                     <div class="col-md-6">
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" name="password">
-                        
-                         <span class="text-danger">
+
+                        <span class="text-danger">
                             <?php
                             echo $passErr
                             ?>
@@ -65,7 +65,7 @@
                     <div class="col-12">
                         <label for="address" class="form-label">Address</label>
                         <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St">
-                         <span class="text-danger">
+                        <span class="text-danger">
                             <?php
                             echo $addressErr
                             ?>
