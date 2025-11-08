@@ -71,6 +71,7 @@
 
             if ($update) {
                 echo "<div class='alert alert-success text-center'>Record Updated Successfully!</div>";
+                header('location: tasktable.php');
             } else {
                 echo "<div class='alert alert-danger text-center'>Error Updating Record: " . mysqli_error($conn) . "</div>";
             }
