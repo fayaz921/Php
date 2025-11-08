@@ -8,10 +8,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <!-- <?php>
-    include_once *./layout/header.php*
-    ?> -->
+    <?php
+    include_once "./layout/header.php"
+    ?>
     <form class="row gy-2 gx-3 align-items-center" method="POST" action="student.php">
   <div class="col-auto">
     <label  for="student-name">Name</label>
