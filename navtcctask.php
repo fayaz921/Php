@@ -10,7 +10,7 @@
     $i=1;
     while($i<=10){
         echo"Php Task <br>";
-        
+    
         $i++;
     }
 
