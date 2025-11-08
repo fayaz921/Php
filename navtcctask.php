@@ -9,7 +9,7 @@
     <?php
     $i=1;
     while($i<=10){
-        echo"Php Task <br>";
+        echo"Php Task while loop <br>";
     
         $i++;
     }
