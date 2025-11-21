@@ -7,7 +7,6 @@
     <title>Add / Update Student</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
     <?php
     include_once "TaskLayout/tasklayout.php";
